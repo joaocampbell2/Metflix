@@ -9,3 +9,6 @@ class Filme(models.model):
     capa = models.ImageField('Capa')
     trailer = models.URLField('Link para Trailer', max_length=1000)
     lancamento = models.DateField('Data de Lançamento')
+    disponivel = models.BooleanField('Disponível')
+
+
